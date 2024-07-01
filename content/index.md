@@ -9,42 +9,6 @@ Diese Projektdokumentation beschreibt die Entwicklung einer Webapp, die zur Übu
 
 ## Nomenclature
 
-::prose-table
-  :::prose-thead
-    ::::prose-td
-    Fachbegriff
-    ::::
-  
-    ::::prose-td
-    Beschreibung
-    ::::
-  :::
-
-  :::prose-tbody
-    ::::prose-tr
-      :::::prose-td
-      CD
-      :::::
-    
-      :::::prose-td
-      Continuous Deployment
-      :::::
-    ::::
-  
-    ::::prose-tr
-      :::::prose-td
-      CI
-      :::::
-    
-      :::::prose-td
-      Continuous Integration
-      :::::
-    ::::
-  :::
-::
-
----
-
 ## Einleitung
 
 ### Projektumfeld

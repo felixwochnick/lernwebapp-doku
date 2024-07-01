@@ -1,6 +1,6 @@
 export default defineAppConfig({
   ui: {
-    primary: 'green',
+    primary: 'teal',
     gray: 'slate',
     footer: {
       bottom: {
@@ -10,7 +10,7 @@ export default defineAppConfig({
     }
   },
   seo: {
-    siteName: 'Nuxt UI Pro - Docs template'
+    siteName: 'Lernwebapp - Dokumentation'
   },
   header: {
     logo: {
@@ -18,39 +18,14 @@ export default defineAppConfig({
       light: '',
       dark: ''
     },
-    search: true,
-    colorMode: true,
-    links: [{
-      'icon': 'i-simple-icons-github',
-      'to': 'https://github.com/nuxt-ui-pro/docs',
-      'target': '_blank',
-      'aria-label': 'Docs template on GitHub'
-    }]
+    search: false,
+    colorMode: false,
+    links: [null]
   },
   footer: {
-    credits: 'Copyright © 2023',
+    credits: '',
     colorMode: false,
-    links: [{
-      'icon': 'i-simple-icons-nuxtdotjs',
-      'to': 'https://nuxt.com',
-      'target': '_blank',
-      'aria-label': 'Nuxt Website'
-    }, {
-      'icon': 'i-simple-icons-discord',
-      'to': 'https://discord.com/invite/ps2h6QT',
-      'target': '_blank',
-      'aria-label': 'Nuxt UI on Discord'
-    }, {
-      'icon': 'i-simple-icons-x',
-      'to': 'https://x.com/nuxt_js',
-      'target': '_blank',
-      'aria-label': 'Nuxt on X'
-    }, {
-      'icon': 'i-simple-icons-github',
-      'to': 'https://github.com/nuxt/ui',
-      'target': '_blank',
-      'aria-label': 'Nuxt UI on GitHub'
-    }]
+    links: [null, null, null, null]
   },
   toc: {
     title: 'Table of Contents',
