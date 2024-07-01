@@ -1,0 +1,102 @@
+---
+title: Dokumentation
+description: Dokumentation
+---
+
+# Webapp-Projekt: Initialisierung und Webapp zur Übung von SQL
+
+Diese Projektdokumentation beschreibt die Entwicklung einer Webapp, die zur Übung von SQL-Abfragen und Statements dient. Die Anwendung ermöglicht es Benutzern, verschiedene SQL-Übungen zu absolvieren und ihre Kenntnisse in der Datenbankabfrage zu verbessern.
+
+## Nomenclature
+
+::prose-table
+  :::prose-thead
+    ::::prose-td
+    Fachbegriff
+    ::::
+  
+    ::::prose-td
+    Beschreibung
+    ::::
+  :::
+
+  :::prose-tbody
+    ::::prose-tr
+      :::::prose-td
+      CD
+      :::::
+    
+      :::::prose-td
+      Continuous Deployment
+      :::::
+    ::::
+  
+    ::::prose-tr
+      :::::prose-td
+      CI
+      :::::
+    
+      :::::prose-td
+      Continuous Integration
+      :::::
+    ::::
+  :::
+::
+
+---
+
+## Einleitung
+
+### Projektumfeld
+
+Das Projekt wird in klar definierten Arbeitsphasen durchgeführt, die insgesamt 44 Tage umfassen. Es handelt sich hierbei um einen Teilbereich eines umfangreicheren Lernwebapp-Projekts, an dem gleichzeitig sieben Personen arbeiten. In der Entwicklergruppe werden gemeinsam mit den anderen Entwicklern regelmäßig Fortschritte besprochen, neue Ziele gesetzt und gegenseitiges Feedback gegeben. So wird sichergestellt, dass alle Beteiligten auf dem gleichen Stand sind und von den Erfahrungen der anderen profitieren können. Dieses kollaborative Umfeld fördert die kontinuierliche Verbesserung und den Erfolg des Gesamtprojekts.
+
+### Projektbeschreibung
+
+Das vorliegende Projekt widmet sich dem Thema SQL, mit dem Lernende SQL-Statements zur Übung ausführen können. Die Webapp bietet dafür verschiedene Übungen mit steigendem Schwierigkeitsgrad an, um die Benutzer herauszufordern und ihre Fähigkeiten zu verbessern. Die Anwendung ist benutzerfreundlich gestaltet und ermöglicht es den Nutzern, ihre Fortschritte zu verfolgen und ihre Ergebnisse zu speichern. Durch die interaktive Gestaltung der Übungen wird das Lernen von SQL-Abfragen zu einem spannenden und motivierenden Erlebnis.
+
+### Projektziel
+
+Das Hauptziel dieses Projekts ist es, ein sehr gutes Verständnis für die Sprache SQL zu vermitteln, sodass die Lernenden in Zukunft keine Probleme haben SQL-Statements zu schreiben. Durch die Erstellung der Lernwebapp sollen die Nutzer in die Lage versetzt werden, die SQL zu erlernen, ohne eine Datenbank oder einen Workspace konfigurieren zu müssen. Ein zentrales Element des Projekts ist die Einbindung eines CMS, sodass die Erweiterung der Lerninhalte ohne Veränderungen des Quellcodes der Anwendung und mit geringen Programmierkenntnissen möglich ist, und der SQL Datenbank via WASM, wodurch die Datenbank direkt im Browser läuft und somit keine Verbindung zu einem Datenbank-Server benötigt. Letztlich zielt das Projekt darauf ab, ein leicht erweiterbares Lernwerkzeug zu entwickeln, das SQL ohne großen Konfigurationsaufwand vermittelt.
+
+## Projektplanung
+
+### Projektphasen
+
+Der zeitliche Ablauf des Projekts wurde in vier Phasen bestehend aus Arbeitsschritten gegliedert.
+
+### Planungsphase
+
+Die Planungsphase wird definiert durch drei Planungsziele:
+
+- Festlegung der Projektziele
+- Planung der Webapp-Inhalte
+- Erstellung eines Aufbaukonzepts
+
+### Implementierungsphase
+
+Diese Planung wird mittels sieben Implementierungszielen umgesetzt:
+
+- Erstellung der UI-Komponenten
+- Implementierung der SQL-Editors
+- Implementierung der SQL-Datenbank via WASM
+- Implementierung des CMS
+- Implementierung des ER-Diagramms zur Live-Visualisierung der Datenbank
+- Zusammenführung aller Projekte innerhalb des Turborepos und Erstellung der Haupt-Startseite
+- Implementierung der GitHub Action, um automatisiert die Projekte inklusive der Haupt-Seite zu bauen und die Webapp als Docker-Image bereitzustellen
+
+### Testphase
+
+Die Implementierung wird in der Testphase mittels folgenden Schritten überprüft:
+
+- Code-Review
+- Erstellung eines Testfragebogens
+- Durchführen der Tests mit websitefremden Benutzern
+- Auswertung der Ergebnisse
+
+### Übergabephase
+
+Schließlich wird das Projekt durch die Übergabephase abgeschlossen. Diese besteht aus:
+
+- Erstellen der Projektpräsentation und fertigstellen der Dokumentation
+- Präsentation der Ergebnisse und Übergabe des Projekts
